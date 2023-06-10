@@ -38,7 +38,7 @@ vector<Mountain> mount = {
 cout << setw(30) << "Mountain" << setw(20) << " Country " << setw(30) << " Elevation " << endl;
 
 for (int i = 0; i < 7; ++i){
-    cout << setw(30) << mount[i].getName() << " " << setw(20) << mount[i].getCountry() << " " << setw(20) << mount[i].getElevation() << "feet " << mount[i].toMeters() << "meters" << endl;
+    cout << setw(30) << mount[i].getName() << " " << setw(20) << mount[i].getCountry() << " " << setw(20) << mount[i].getElevation() << " feet " << mount[i].toMeters() << " meters" << endl;
 }
 
 //smallest mountain
